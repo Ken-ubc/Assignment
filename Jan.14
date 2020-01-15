@@ -1,0 +1,29 @@
+from statistics import *
+lst = [15,18,12,13, 22,32,11,10,16,18,27,42]
+
+number = len(lst)
+print("number = %d"%number)
+
+med = median(lst)
+print("median = %d"%med)
+
+mean = mean(lst)
+print("mean = %d"%mean)
+
+
+#   First sort the list
+print(lst)
+lst.sort()
+print(lst)
+#   Then get the element a quarter of the way through it")
+
+#   for instance, len(lst) / 4. Except that value is a Float, and you need an integer.
+
+print(len(lst)/4)
+
+quarter = 1 # TODO figure out how to calculate this
+
+threeQuarters = 2 # TODO figure out how to calculate this
+
+print(lst[quarter])
+print(lst[threeQuarters])
